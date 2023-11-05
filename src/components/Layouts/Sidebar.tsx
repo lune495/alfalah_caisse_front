@@ -54,8 +54,8 @@ const Sidebar = () => {
                 <div style={{backgroundColor:"#007fff"}} className="bg-white dark:bg-black h-full">
                     <div className="flex justify-between items-center pl-2">
                         <NavLink to="/" className="main-logo flex items-center shrink-0">
-                            <img className="w-12 ml-[5px] flex-none" src="/assets/images/logo_chifa.png" alt="logo" />
-                            <span className="text-xl ltr:ml-1.5 rtl:mr-1.5 font-bold align-middle lg:inline dark:text-white-light">{t('CHIFAA')}</span>
+                            <img className="w-12 ml-[5px] flex-none" src="/assets/images/logo.png" alt="logo" />
+                            <span className="text-xl ltr:ml-1.5 rtl:mr-1.5 font-bold align-middle lg:inline dark:text-white-light">{t('ALFALAH')}</span>
                         </NavLink>
 
                         <button

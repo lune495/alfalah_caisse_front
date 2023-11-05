@@ -110,40 +110,20 @@ const Pharmacie = () => {
         setAddContactModal(true);
     };
 
-    // useEffect(() => {
-    
-    //     const NewWebsocket = io(`ws://45.63.94.164:6001`,{
-    //         transports: ['websocket'],
-    //         reconnectionDelay: 1000,
-    //         reconnection:true,
-    //      })
-        
-    //        NewWebsocket.on("connect_error", (err) => { 
-    //         console.log("erreur  ",err)
-    //       })
-    //     NewWebsocket.on('my-event',(e:any)=>{
-    //         console.log("event",e)
-    //     })
-    //     return ()=>{
-    //         NewWebsocket.off('my-event')
-    //     }
-      
-	// }, []);
-//d138c832a9b86305ed9d
       useEffect(() => {
-    const pusher = new Pusher('255b70e78fb686670b01', {
-      cluster: 'eu',
-    });
+        const pusher = new Pusher('e0f1fa74f4061d268aa5', {
+        cluster: 'eu',
+        });
 
-    const channel = pusher.subscribe('my-channel');
-    channel.bind('event-pharma', function(data:any) {
-    getStatus()
+        const channel = pusher.subscribe('my-channel');
+        channel.bind('my-event', function(data:any) {
+        getStatus()
         
     });
 
     // N'oubliez pas de se désabonner du canal lorsque le composant est démonté
     return () => {
-      channel.unbind('event-pharma');
+      channel.unbind('my-event');
       pusher.unsubscribe('my-channel');
     };
   }, []);
