@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const apiUrl = "http://45.63.94.164/alfalah_caisse_front";
+const apiUrl = "http://45.63.94.164/alfalah_caisse_back";
 const fileUrl = "http://192.99.37.218/poster/";
 //const baseUrl = process.env.REACT_APP_BASE_URL;
 //const webUrl = process.env.REACT_APP_WEB_URL
