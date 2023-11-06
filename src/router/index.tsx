@@ -10,6 +10,6 @@ const finalRoutes = routes.map((route) => {
     };
 });
 
-const router = createBrowserRouter(finalRoutes);
+const router = createBrowserRouter(finalRoutes,{ basename: "alfalah_caisse_front" });
 
 export default router;
