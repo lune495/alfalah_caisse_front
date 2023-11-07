@@ -133,7 +133,7 @@ const themeConfigSlice = createSlice({
         },
 
         setPageTitle(state, { payload }) {
-            document.title = `${payload} | CHIFAA`;
+            document.title = `${payload} | ALFALAH`;
         },
 
         setEleveId(state, { payload }) {
