@@ -49,7 +49,7 @@ const FinanceApescol = () => {
             <div className="fixed m-[-30px] mt-[-80px] justify-center w-full bg-cover bg-center h-[1000px] bg-[url('/assets/images/medecin2.jpg')]">
                 <div className="bg-blue-80 ml-5">
                     <div style={{marginTop:80}} className="left-0 text-primary text-2xl">
-                    <strong>CHIFAA</strong>  <span>Nous pronons soin </span>
+                    <strong>ALFALAH</strong>  <span>Nous pronons soin </span>
                     </div>
                     <div style={{marginTop:2}} className="left-0 text-primary text-2xl">
                         
