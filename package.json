@@ -4,6 +4,7 @@
     "main": "public/electron.js",
     "version": "0.0.0",
     "type": "module",
+    "homepage": "http://45.63.94.164/alfalah",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
